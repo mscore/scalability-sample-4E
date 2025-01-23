@@ -1,0 +1,11 @@
+@scalability_sample_4E_HostAddress = http://localhost:5287
+
+GET {{scalability_sample_4E_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{scalability_sample_4E_HostAddress}}/todos/1
+Accept: application/json
+
+###
